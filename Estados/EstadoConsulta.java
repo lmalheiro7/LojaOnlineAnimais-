@@ -1,0 +1,8 @@
+package Estados;
+public enum EstadoConsulta {
+    MARCADA,
+    CONFIRMADA,
+    ANULADA,
+    EFEUADA,   //DEPOIS DA CONSULTA ESTAR EFETUADA AGUARDA PAGAMENTO
+    CONCLUIDA
+}
